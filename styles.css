@@ -1,0 +1,85 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.skills{
+	border-style: solid;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	background: #363636;
+	color: white;
+	box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.interests{
+	border-style: dotted;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	background: #363636;
+	color: white;
+	box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.career-goals{
+	border-style: dashed;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	background: #363636;
+	color: white;
+	box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.fav-button{
+	background-color: rgb(216, 216, 115); /* Green */
+	border: none;
+	color: white;
+	padding: 7px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	box-shadow: 3px 3px 5px rgb(0, 0, 0);
+	margin: 5px;
+}
+
+.fav-div{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
