@@ -65,6 +65,7 @@ img {
 }
 
 .fav-button{
+	cursor: pointer;
 	background-color: rgb(216, 216, 115); /* Green */
 	border: none;
 	color: white;
@@ -80,6 +81,30 @@ img {
 .fav-div{
 	position: relative;
 	display: flex;
+	justify-content: center;	
+}
+
+.random-restaurant-div{
+	border-style: solid;
+	padding: 20px;
+	margin-bottom: 10px;
+	color: white;
+	box-shadow: 5px 5px 10px rgb(0, 0, 0);
+	position: relative;
+	display: flex;
 	justify-content: center;
-	
+}
+
+.rand-rest-btn{
+	cursor: pointer;
+	background-color: rgb(216, 216, 115); /* Green */
+	border: none;
+	color: white;
+	padding: 7px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	box-shadow: 3px 3px 5px rgb(0, 0, 0);
+	padding: 5px;
 }
